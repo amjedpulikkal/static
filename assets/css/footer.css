@@ -1,0 +1,37 @@
+footer{
+    width:87%;
+    margin: 0 auto;
+}
+
+.footer-heading{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (max-width: 600px) {
+    .footer-heading{
+        display: block;
+    }
+}
+.footer-items{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-sub-items{
+    
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+.footer-sub-item{
+    /* flex: 1 1 200px; */
+    color: rgb(85, 85, 85);
+}
+
+.footer-end{
+    color: rgb(153, 153, 153);
+}

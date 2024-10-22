@@ -1,0 +1,93 @@
+.hero-carousel-banner1 {
+  position: relative;
+}
+
+img {
+  width: 100%;
+}
+
+.hero-carousel-banner2-content {
+  position: absolute;
+  top:60px;
+  width: 50%;
+  margin-left: 100px;
+}
+
+.hero-carousel-banner1-content {
+  position: absolute;
+  top: 100px;
+  width: 55%;
+
+  margin-left: 100px;
+}
+
+@font-face {
+  font-family: "PayPalOpen-Bold";
+  src: url("../fonts/PayPalOpen-Bold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PayPalOpen-Regular";
+  src: url("../fonts/PayPalOpen-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.hero-carousel-banner1-content h1 {
+  font-size: 45px;
+  font-size: 2.8125rem;
+  line-height: 3rem;
+  font-family: "PayPalOpen-Bold", Helvetica Neue, Arial, sans-serif;
+  font-weight: 400;
+  color: #fff;
+  padding-left: 0px;
+  max-width: 69%;
+  text-align: left;
+}
+
+.hero-carousel-banner1-content p {
+  max-width: 67%;
+  font-size: 24px;
+  font-size: 1.5rem;
+  line-height: 1.3;
+  font-family: "PayPalOpen-Regular";
+  color: #fff;
+  margin-bottom: 0px;
+  padding-bottom: 34px;
+  text-align: left;
+}
+
+.hero-carousel-banner2-content h1 {
+  font-size: 45px;
+  font-size: 2.8125rem;
+  line-height: 3rem;
+  font-family: "PayPalOpen-Bold", Helvetica Neue, Arial, sans-serif;
+  font-weight: 400;
+  color: #fff;
+  padding-left: 0px;
+  max-width: 69%;
+  text-align: left;
+}
+
+.hero-carousel-banner2-content p {
+  max-width: 67%;
+  font-size: 24px;
+  font-size: 1.5rem;
+  line-height: 1.3;
+  font-family: "PayPalOpen-Regular";
+  color: #fff;
+  margin-bottom: 0px;
+  padding-bottom: 34px;
+  text-align: left;
+}
+
+.banner-button {
+  font-family: "PayPalOpen-Bold", Helvetica Neue, Arial, sans-serif;
+border-color: #fff;
+  color: #fff;
+  padding: 15px;
+  background: none;
+  border-radius: 50px;
+}

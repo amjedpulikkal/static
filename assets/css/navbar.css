@@ -1,0 +1,75 @@
+/* navbar style  */
+.navbar {
+    background-color: #ffff;
+    display: flex;
+}
+
+.logo{
+    display:flex;
+    justify-content: center                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ;
+}
+
+.logo .logo-dev{
+    
+    width: 136px;
+    height: 43px;
+    display: inline-block;
+    padding: 0;
+    background: transparent url(https://www.paypalobjects.com/digitalassets/c/website/logo/full-text/pp_fc_hl.svg) center center no-repeat;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position: 0 50%;
+    background-size: contain;
+    overflow: hidden;
+    text-indent: -999em;
+}
+.logo, .nav-items, .auth-btns {
+    flex: 1;
+    text-align: center;
+}
+
+.nav-items {
+    display: inherit;
+    flex: 2;
+    margin: auto;
+}
+@media (max-width: 768px) {
+    .nav-items,  .sign-up-btn{
+        display: none;
+     
+    }
+
+
+}
+
+.item {
+    margin: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #332e4a;
+}
+
+.down-arrow {
+    color: #88898a;
+}
+
+.auth-btn {
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 1px ;
+}
+
+.log-in-btn {
+    background-color: #ffff;
+    color: #0070ba;
+    font-weight: bold;
+    border: 1px solid #0070ba;
+}
+
+.sign-up-btn {
+    background-color: #0070ba;
+    color: #ffff;
+    font-weight: bold;
+}
+/* navbar style  */

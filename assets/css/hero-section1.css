@@ -1,0 +1,46 @@
+.paypal-for-business{
+    background-color: #001536;
+    display: flex;
+    justify-content: space-around;
+    color: #ffff;
+    padding: 25px;
+    line-height: 2rem;
+    text-align: left;
+    font-family: 'PayPalOpen-Bold', Helvetica Neue, Arial, sans-serif;
+}
+
+
+.paypal-for-business content-heading {
+    margin: 0px;
+}
+
+@media (max-width: 600px) {
+   .paypal-for-business{
+     text-align: center;
+     display: block;
+   }
+}
+.content-heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffff;
+    font-size: 1.5rem;
+}
+
+.content-para {
+    font-family: 'PayPalOpen-Regular', Helvetica Neue, Arial, sans-serif;
+    font-size: 1.3125rem;
+    line-height: 1.5rem;
+}
+
+
+.paypal-for-business-btn {
+    background-color: #0070e0;
+    color: #ffff;
+    padding: 0px 15px;
+    border-radius: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    padding: 18px;
+}

@@ -1,0 +1,48 @@
+.paypal-by-numbers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0rem;
+    background-color: #f3f2f7;
+    font-family: 'PayPalOpen-Bold', Helvetica Neue, Arial, sans-serif;
+    font-size: 1.5rem;
+    color: #001435;
+}
+
+.paypal-by-numbers p {
+    font-family: 'PayPalOpen-Bold', Helvetica Neue, Arial, sans-serif;
+    font-size: 1.5rem;
+    color: #001435;
+    font-weight: bold;
+    padding-left: 1.5rem;
+    text-transform: none;
+}
+
+.items-container {
+    display: inherit;
+    max-width: 90%;
+    flex-wrap: wrap;
+}
+.item {
+    display: flex;
+    width: 47%;
+    display: inherit;
+}
+@media (max-width: 600px) {
+    .item{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .items-container{
+        width: 100%;
+        align-items: center;
+    }
+}
+
+.item img {
+    height: 73px;
+    width: 73px;
+}

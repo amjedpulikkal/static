@@ -1,0 +1,70 @@
+.enhanced-editorial {
+    background-color: #001435 ;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px; 
+    margin-top: 2rem;
+}
+
+.enhanced-editorial-left, .enhanced-editorial-right {
+    flex: 1;
+    max-width: 500px;
+}
+
+.enhanced-editorial-left .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-family: 'PayPalOpen-Bold', Helvetica Neue, Arial, sans-serif;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .enhanced-editorial-left .content{
+        text-align: center;
+    }
+    .enhanced-editorial{
+        display: block;
+    }
+    .enhanced-editorial-right{
+        margin-top: 10px;
+    }
+}
+
+
+.enhanced-editorial-left h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-family: 'PayPalOpen-Bold', Helvetica Neue, Arial, sans-serif;
+
+}
+
+.enhanced-editorial-left h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-family: 'PayPalOpen-Bold', Helvetica Neue, Arial, sans-serif;
+
+}
+
+.enhanced-editorial-left p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    line-height: 1.6; 
+    font-family: 'PayPalOpen-Bold', Helvetica Neue, Arial, sans-serif;
+
+}
+
+
+.enhanced-editorial-right {
+    display: flex;
+    justify-content: center;
+}
+
+.paypal-mobile-img {
+    max-width: 100%; 
+    height: auto;
+}

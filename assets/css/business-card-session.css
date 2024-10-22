@@ -1,0 +1,65 @@
+.business-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+
+@media (max-width: 768px) {
+    .business-cards{
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+    .business-card-img {
+        height: 130px;
+    }
+    .paypal-for-business-btn-dev{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+.business-card-heading {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0px;
+}
+
+.business-card-heading h1 {
+  font-size: 2rem;
+  color: #001c64;
+  font-family: "PayPalOpen-Bold", Helvetica Neue, Arial, sans-serif;
+  text-align: center;
+}
+
+.business-card1,
+.business-card2,
+.business-card3 {
+  flex: 1;
+  flex-direction: column;
+  text-align: center;
+  flex: 1 1 400px;
+}
+
+.business-card-img {
+  height: 260px;
+  border-radius: 15px;
+}
+
+.content-div {
+  max-width: 300px;
+  margin: auto;
+  text-align: justify;
+  line-height: 1.6;
+  font-family: "PayPalOpen-Bold", Helvetica Neue, Arial, sans-serif;
+}
+
+.content-div h1 {
+  color: #001c63;
+  font-family: "PayPalOpen-Bold", Helvetica Neue, Arial, sans-serif;
+  font-size: larger;
+}
